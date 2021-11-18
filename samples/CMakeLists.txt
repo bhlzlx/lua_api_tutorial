@@ -46,4 +46,5 @@ INTERFACE
 
 project(samples)
 
-add_subdirectory(1_luastate)
+add_subdirectory(0_luastate)
+add_subdirectory(1_loadscript)
