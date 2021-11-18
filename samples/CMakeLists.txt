@@ -48,3 +48,4 @@ project(samples)
 
 add_subdirectory(0_luastate)
 add_subdirectory(1_loadscript)
+add_subdirectory(2_call_and_ret)
