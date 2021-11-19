@@ -44,7 +44,7 @@ int main() {
         lua_pushstring(state, "pow_from_c");
         lua_pushcclosure(state, pow_from_c, 0); // _G; "pow_from_c"; closure
         lua_rawset(state, -3); // _G
-        lua_pop(state, 1); // _G
+        lua_pop(state, 1); 
         //
         auto rst = luaL_loadbuffer( state, script, strlen(script), "reg_c_closure");
         if(rst != 0) {
