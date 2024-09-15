@@ -1,3 +1,0 @@
-[submodule "3rd/lua"]
-	path = 3rd/lua
-	url = git@github.com:lua/lua.git
